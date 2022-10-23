@@ -1,0 +1,526 @@
+2022-10-22 13:17:16 error: [Cake\Datasource\Exception\MissingDatasourceException] Datasource class default could not be found.  in /var/www/myapp/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php on line 57
+Exception Attributes: array (
+  'class' => 'default',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/myapp/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:102
+- /var/www/myapp/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php:204
+- /var/www/myapp/vendor/cakephp/debug_kit/src/Panel/SqlLogPanel.php:53
+- /var/www/myapp/vendor/cakephp/debug_kit/src/ToolbarService.php:219
+- /var/www/myapp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:58
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myapp/webroot/index.php:40
+
+2022-10-22 16:03:30 error: [Cake\Http\Exception\MissingControllerException] Controller class Card could not be found. in /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Card',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myapp/webroot/index.php:40
+
+Request URL: /card
+Client IP: 172.18.0.1
+2022-10-22 16:05:53 error: [Cake\Http\Exception\MissingControllerException] Controller class Card could not be found. in /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Card',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myapp/webroot/index.php:40
+
+Request URL: /card
+Client IP: 172.18.0.1
+2022-10-22 16:06:19 error: [Cake\Http\Exception\MissingControllerException] Controller class Card could not be found. in /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Card',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myapp/webroot/index.php:40
+
+Request URL: /card
+Client IP: 172.18.0.1
+2022-10-22 16:06:51 error: [Cake\Http\Exception\MissingControllerException] Controller class Card could not be found. in /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Card',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myapp/webroot/index.php:40
+
+Request URL: /card
+Client IP: 172.18.0.1
+2022-10-22 16:06:53 error: [Cake\Http\Exception\MissingControllerException] Controller class Card could not be found. in /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Card',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myapp/webroot/index.php:40
+
+Request URL: /card
+Client IP: 172.18.0.1
+2022-10-22 16:07:09 error: [Cake\Controller\Exception\MissingActionException] Action CardController::index() could not be found, or is not accessible. in /var/www/myapp/vendor/cakephp/cakephp/src/Controller/Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'CardController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:134
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myapp/webroot/index.php:40
+
+Request URL: /card
+Client IP: 172.18.0.1
+2022-10-22 16:09:57 error: [Cake\View\Exception\MissingTemplateException] Template file `Card/index.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/myapp/templates/Card/index.php`
+- `/var/www/myapp/vendor/cakephp/cakephp/templates/Card/index.php`
+ in /var/www/myapp/vendor/cakephp/cakephp/src/View/View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Card/index.php',
+  'paths' => 
+  array (
+    0 => '/var/www/myapp/templates/',
+    1 => '/var/www/myapp/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/myapp/vendor/cakephp/cakephp/src/View/View.php:805
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/Controller.php:773
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/Controller.php:556
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myapp/webroot/index.php:40
+
+Request URL: /card
+Client IP: 172.18.0.1
+2022-10-22 16:10:49 error: [Error] Call to undefined function App\Controller\view() in /var/www/myapp/src/Controller/CardController.php on line 35
+Stack Trace:
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myapp/webroot/index.php:40
+
+Request URL: /card
+Client IP: 172.18.0.1
+2022-10-22 16:11:16 error: [Cake\View\Exception\MissingTemplateException] Template file `card.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/myapp/templates/card.php`
+- `/var/www/myapp/vendor/cakephp/cakephp/templates/card.php`
+ in /var/www/myapp/vendor/cakephp/cakephp/src/View/View.php on line 1398
+Exception Attributes: array (
+  'file' => 'card.php',
+  'paths' => 
+  array (
+    0 => '/var/www/myapp/templates/',
+    1 => '/var/www/myapp/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/myapp/vendor/cakephp/cakephp/src/View/View.php:805
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/Controller.php:773
+- /var/www/myapp/src/Controller/CardController.php:35
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myapp/webroot/index.php:40
+
+Request URL: /card
+Client IP: 172.18.0.1
+2022-10-22 16:15:46 error: [Cake\View\Exception\MissingTemplateException] Template file `Card/card.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/myapp/templates/Card/card.php`
+- `/var/www/myapp/vendor/cakephp/cakephp/templates/Card/card.php`
+ in /var/www/myapp/vendor/cakephp/cakephp/src/View/View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Card/card.php',
+  'paths' => 
+  array (
+    0 => '/var/www/myapp/templates/',
+    1 => '/var/www/myapp/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/myapp/vendor/cakephp/cakephp/src/View/View.php:805
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/Controller.php:773
+- /var/www/myapp/src/Controller/CardController.php:69
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myapp/webroot/index.php:40
+
+Request URL: /card/card
+Client IP: 172.18.0.1
+2022-10-22 16:17:00 error: [Error] Call to undefined method Cake\View\ViewBuilder::layout() in /var/www/myapp/src/Controller/CardController.php on line 35
+Stack Trace:
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myapp/webroot/index.php:40
+
+Request URL: /card/card
+Client IP: 172.18.0.1
+2022-10-22 16:17:11 error: [Error] Call to undefined method Cake\View\ViewBuilder::layout() in /var/www/myapp/src/Controller/CardController.php on line 35
+Stack Trace:
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myapp/webroot/index.php:40
+
+Request URL: /card
+Client IP: 172.18.0.1
+2022-10-22 16:17:43 error: [Error] Call to undefined method Cake\Routing\RouteBuilder::layout() in /var/www/myapp/config/routes.php on line 77
+Stack Trace:
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/RouteBuilder.php:946
+- /var/www/myapp/config/routes.php:81
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:200
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:135
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:124
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:95
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:155
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myapp/webroot/index.php:40
+
+Request URL: /card
+Client IP: 172.18.0.1
+2022-10-22 16:17:44 error: [Error] Call to undefined method Cake\Routing\RouteBuilder::layout() in /var/www/myapp/config/routes.php on line 77
+Stack Trace:
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/RouteBuilder.php:946
+- /var/www/myapp/config/routes.php:81
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:200
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:135
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:124
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:95
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:155
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myapp/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/9f9e7083-1b9b-445a-9e3f-697b3d143bf9
+Referer URL: http://localhost:8180/card
+Client IP: 172.18.0.1
+2022-10-22 23:32:01 error: [Cake\Http\Exception\MissingControllerException] Controller class Node_modules could not be found. in /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Node_modules',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myapp/webroot/index.php:40
+
+Request URL: /node_modules/jquery/dist/
+Referer URL: http://localhost:8180/card
+Client IP: 172.18.0.1
+2022-10-22 23:32:46 error: [Cake\Http\Exception\MissingControllerException] Controller class Node_modules could not be found. in /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Node_modules',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myapp/webroot/index.php:40
+
+Request URL: /node_modules/jquery/dist/jquery.js
+Referer URL: http://localhost:8180/card
+Client IP: 172.18.0.1
+2022-10-22 23:40:51 error: [Cake\Http\Exception\MissingControllerException] Controller class Node_modules could not be found. in /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Node_modules',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/myapp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/myapp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/myapp/webroot/index.php:40
+
+Request URL: /node_modules/jquery/dist/jquery.js
+Referer URL: http://localhost:8180/card
+Client IP: 172.18.0.1
