@@ -23,6 +23,6 @@
 # /cakephp/tmp/*
 /cakephp/Config/core.php
 /cakephp/Config/database.php
-/vendors/*
+/cakephp/vendors/*
 /cakephp/logs
 cakephp/logs/error.log
