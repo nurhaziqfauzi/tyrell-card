@@ -4,6 +4,7 @@
 /vendor/*
 /config/app.php
 
+cakephp/tmp/*
 cakephp/tmp/cache/models/*
 !cakephp/tmp/cache/models/empty
 cakephp/tmp/cache/persistent/*
@@ -25,4 +26,5 @@ cakephp/logs
 cakephp/logs/error.log
 cakephp/vendor/*
 cakephp/vendor/composer/*
-cakephp/tmp/*
+
+
