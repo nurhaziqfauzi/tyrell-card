@@ -4,27 +4,24 @@
 /vendor/*
 /config/app.php
 
-/cakephp/tmp/cache/models/*
-!/cakephp/tmp/cache/models/empty
-/cakephp/tmp/cache/persistent/*
-!/cakephp/tmp/cache/persistent/empty
-/cakephp/tmp/cache/views/*
-!/cakephp/tmp/cache/views/empty
-/cakephp/tmp/sessions/*
-!/cakephp/tmp/sessions/empty
-/cakephp/tmp/tests/*
-!/cakephp/tmp/tests/empty
+cakephp/tmp/cache/models/*
+!cakephp/tmp/cache/models/empty
+cakephp/tmp/cache/persistent/*
+!cakephp/tmp/cache/persistent/empty
+cakephp/tmp/cache/views/*
+!cakephp/tmp/cache/views/empty
+cakephp/tmp/sessions/*
+!cakephp/tmp/sessions/empty
+cakephp/tmp/tests/*
+!cakephp/tmp/tests/empty
 cakephp/logs/error.log
-cakephp/vendors/*
 /logs/*
 !/logs/empty
 
-# CakePHP 2
-
-# /cakephp/tmp/*
-/cakephp/Config/core.php
-/cakephp/Config/database.php
-/cakephp/vendors/*
-/cakephp/logs
+# Docker File Cake PHP
+cakephp/Config/core.php
+cakephp/Config/database.php
+cakephp/logs
 cakephp/logs/error.log
-cakephp/vendors/*
+cakephp/vendor/*
+cakephp/tmp/*
