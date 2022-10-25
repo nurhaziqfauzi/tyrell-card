@@ -14,7 +14,8 @@
 !/cakephp/tmp/sessions/empty
 /cakephp/tmp/tests/*
 !/cakephp/tmp/tests/empty
-
+cakephp/logs/error.log
+cakephp/vendors/*
 /logs/*
 !/logs/empty
 
@@ -26,3 +27,4 @@
 /cakephp/vendors/*
 /cakephp/logs
 cakephp/logs/error.log
+cakephp/vendors/*
