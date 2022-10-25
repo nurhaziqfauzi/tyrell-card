@@ -14,8 +14,8 @@ class ComposerStaticInit599f596204d2422199f2ee1ed13bf380
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
         '0d59ee240a4cd96ddbb4ff164fccea4d' => __DIR__ . '/..' . '/symfony/polyfill-php73/bootstrap.php',
         '23c18046f52bef3eea034657bafda50f' => __DIR__ . '/..' . '/symfony/polyfill-php81/bootstrap.php',
-        'e69f7f6ee287b969198c3c9d6777bd38' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/bootstrap.php',
         '8825ede83f2f289127722d4e842cf7e8' => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme/bootstrap.php',
+        'e69f7f6ee287b969198c3c9d6777bd38' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/bootstrap.php',
         'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
         'ad155f8f1cf0d418fe49e248db8c661b' => __DIR__ . '/..' . '/react/promise/src/functions_include.php',
         '07d7f1a47144818725fd8d91a907ac57' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/create_uploaded_file.php',
@@ -69,6 +69,7 @@ class ComposerStaticInit599f596204d2422199f2ee1ed13bf380
             'Seld\\Signal\\' => 12,
             'Seld\\PharUtils\\' => 15,
             'Seld\\JsonLint\\' => 14,
+            'Seld\\CliPrompt\\' => 15,
         ),
         'R' => 
         array (
@@ -88,12 +89,14 @@ class ComposerStaticInit599f596204d2422199f2ee1ed13bf380
         ),
         'M' => 
         array (
+            'MiniAsset\\' => 10,
             'Migrations\\' => 11,
             'M1\\Env\\' => 7,
         ),
         'L' => 
         array (
             'League\\Container\\' => 17,
+            'League\\CLImate\\' => 15,
             'Laminas\\HttpHandlerRunner\\' => 26,
             'Laminas\\Diactoros\\' => 18,
         ),
@@ -134,6 +137,7 @@ class ComposerStaticInit599f596204d2422199f2ee1ed13bf380
         ),
         'A' => 
         array (
+            'AssetCompress\\' => 14,
             'App\\Test\\' => 9,
             'App\\' => 4,
         ),
@@ -220,6 +224,10 @@ class ComposerStaticInit599f596204d2422199f2ee1ed13bf380
         array (
             0 => __DIR__ . '/..' . '/seld/jsonlint/src/Seld/JsonLint',
         ),
+        'Seld\\CliPrompt\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/seld/cli-prompt/src',
+        ),
         'React\\Promise\\' => 
         array (
             0 => __DIR__ . '/..' . '/react/promise/src',
@@ -239,8 +247,8 @@ class ComposerStaticInit599f596204d2422199f2ee1ed13bf380
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -262,6 +270,10 @@ class ComposerStaticInit599f596204d2422199f2ee1ed13bf380
         array (
             0 => __DIR__ . '/..' . '/phpstan/phpdoc-parser/src',
         ),
+        'MiniAsset\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/markstory/mini-asset/src',
+        ),
         'Migrations\\' => 
         array (
             0 => __DIR__ . '/..' . '/cakephp/migrations/src',
@@ -273,6 +285,10 @@ class ComposerStaticInit599f596204d2422199f2ee1ed13bf380
         'League\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/container/src',
+        ),
+        'League\\CLImate\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/climate/src',
         ),
         'Laminas\\HttpHandlerRunner\\' => 
         array (
@@ -373,6 +389,10 @@ class ComposerStaticInit599f596204d2422199f2ee1ed13bf380
         'Bake\\' => 
         array (
             0 => __DIR__ . '/..' . '/cakephp/bake/src',
+        ),
+        'AssetCompress\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/markstory/asset_compress/src',
         ),
         'App\\Test\\' => 
         array (
