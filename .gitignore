@@ -24,4 +24,5 @@ cakephp/Config/database.php
 cakephp/logs
 cakephp/logs/error.log
 cakephp/vendor/*
+cakephp/vendor/composer/*
 cakephp/tmp/*
