@@ -7,8 +7,8 @@
     
 </html>
 
-<?= $this->AssetCompress->script('libs.js'); ?>
-<script src="/node_modules/jquery/dist/jquery.js"></script>
+<?= $this->AssetCompress->script('base-jquery.js'); ?>
+
 <script type="text/javascript">
     console.log($);
 </script>
